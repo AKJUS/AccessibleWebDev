@@ -1,5 +1,10 @@
 {
-	"extends": ["next/core-web-vitals", "prettier", "plugin:@typescript-eslint/recommended"],
+	"extends": [
+		"next/core-web-vitals",
+		"prettier",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:jsx-a11y/strict"
+	],
 	"rules": {
 		"comma-spacing": ["error", { "before": false, "after": true }],
 		"react/no-unescaped-entities": 0,
